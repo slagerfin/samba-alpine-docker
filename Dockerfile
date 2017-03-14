@@ -1,5 +1,5 @@
-FROM alpine:latest
-MAINTAINER Peter Winter <peter@pwntr.com>
+FROM armhf-alpine:latest
+MAINTAINER Samuli Lager <samuli.lager@docker.mail.kapsi.fi>
 LABEL Description="Simple and lightweight Samba docker container, based on Alpine Linux." Version="0.1"
 
 # update the base system
